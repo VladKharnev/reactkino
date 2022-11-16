@@ -1,0 +1,32 @@
+%btn{
+    font-size: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.8s;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+.container{
+    color: whitesmoke;
+}
+
+.btn_top_films,
+.btn_search_actors,
+.btn_films_filter,
+.btn_seatch_films{
+    @extend %btn;
+}
+.wrapper_column__first{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.btn_top_films:hover,
+.btn_search_actors:hover,
+.btn_films_filter:hover,
+.btn_seatch_films:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

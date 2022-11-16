@@ -1,0 +1,18 @@
+.container{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    p{
+        margin-bottom: 25px;
+    }
+}
+.img_film{
+    max-height: 700px;
+    border-radius: 10px;
+}
+.film_info{
+    max-width: 800px;
+}
+.img_wrapper{
+    margin-right: 80px;
+}

@@ -1,0 +1,41 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+.actor_wrapper{
+    display: flex;
+    color: white;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 350px;
+    img{
+        max-height: 100%;
+        border-radius: 10px;
+    }
+    .image_actor{
+        margin-right: 50px;
+    }
+    h3{
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-family: 'Cabin', sans-serif;
+        color: wheat
+    }
+    p{
+        margin-bottom: 30px;
+    }
+    .info_actor__btn{
+        color: wheat;
+        text-decoration: none;
+        border: 1px solid wheat;
+        padding: 10px 5px 10px 5px;
+        border-radius: 7px;
+        background-color: darkcyan;
+    }
+}
+h2{
+    color: wheat;
+}

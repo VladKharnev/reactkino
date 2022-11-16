@@ -1,0 +1,23 @@
+@import '../Modals/style.module.scss';
+
+
+.row_second, form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    .input_modal{
+        margin-right: 0px;
+    }
+}
+.modal{
+    height: 400px;
+}
+.submit{
+    display: none;
+}
+.btn_modal{
+    border: none;
+    text-decoration: none;
+}

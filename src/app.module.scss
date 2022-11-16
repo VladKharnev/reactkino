@@ -1,0 +1,26 @@
+.container{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+.wrapper_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    .link{
+        color: white;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+        font-size: 30px;
+        border-bottom: 2px solid whitesmoke;
+        transition: 0.8s;
+    }
+    .link:hover{
+        transform: scale(1.2);
+    }
+}
